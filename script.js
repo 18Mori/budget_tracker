@@ -1,4 +1,5 @@
- // --- SELECTING HTML ELEMENTS ---
+document.addEventListener('DOMContentLoaded', () => {
+// --- SELECTING HTML ELEMENTS ---
             const transactionForm = document.getElementById('transaction-form');
             const transactionTypeInput = document.getElementById('type');
             const transactionDescriptionInput = document.getElementById('description');
@@ -173,3 +174,4 @@
                 console.log("No transactions found in cookies.");
                 return [];
             }
+            });
